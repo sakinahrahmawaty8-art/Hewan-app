@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f6f8fa;
+  color: #333;
+}
+
+header {
+  background: #3b7a57;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.hewan-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.hewan-card {
+  background: white;
+  border-radius: 12px;
+  margin: 15px;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+  width: 240px;
+}
+
+.hewan-card:hover {
+  transform: scale(1.03);
+}
+
+.hewan-card img {
+  width: 100%;
+  border-radius: 12px 12px 0 0;
+}
+
+.hewan-detail {
+  text-align: center;
+  padding: 20px;
+}
+
+.hewan-detail img {
+  width: 320px;
+  border-radius: 8px;
+}
+
+.back {
+  display: inline-block;
+  margin-top: 20px;
+  color: #3b7a57;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer {
+  background: #3b7a57;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
